@@ -1,0 +1,68 @@
+/* AdminReg.css */
+
+.admin-register-container {
+  background-image: url('https://images.unsplash.com/photo-1556911073-52527ac437f5?auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: brightness(0.9);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-register-form {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 10px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff6b35;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #e65a24;
+}
+
+.redirect-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.redirect-text a {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redirect-text a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,32 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #f6f6f6, #ffffff);
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.logout-button {
+  padding: 0.5rem 1rem;
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #d9363e;
+}
