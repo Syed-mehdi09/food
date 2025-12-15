@@ -12,7 +12,7 @@ import Orders from "./pages/Orders/Orders.jsx";
 import AdminLogin from "./pages/AdminLog/AdminLogin.jsx";
 import AdminRegister from "./pages/AdminReg/AdminRegister.jsx";
 
-const url = "http://localhost:4001";
+const url = "https://food-backend01.onrender.com";
 
 const App = () => {
   return (

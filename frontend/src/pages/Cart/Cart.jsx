@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom'
 const Cart = () => {
   const { cartItems, food_list, removeFromCart,getTotalCartAmount } = useContext(StoreContext)
 
-  const url = "https://food-backend-coyg.onrender.com"
+  const url = "https://food-backend01.onrender.com"
   const navigate = useNavigate();
   return (
     <div className='cart'>

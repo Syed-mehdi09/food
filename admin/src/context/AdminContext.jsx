@@ -9,7 +9,7 @@ export const AdminContext = createContext();
 
 const AdminContextProvider = ({ children }) => {
   const [adminToken, setAdminToken] = useState(localStorage.getItem("adminToken") || "");
-  const backendURL = "http://localhost:4001"; //  backend url
+  const backendURL = "https://food-backend01.onrender.com"; //  backend url
 
   const navigate = useNavigate();
 
